@@ -23,15 +23,20 @@ The project assumes that pixels to be filled have a special "mask" color, such a
 *Sample results in 256x256 using a green mask:* <br />
 ![Sample results in 256x256](inpainting_results.gif)
 
+#### Performance: 
+
+Very modest; this is not optimized or GPU code. About 3ms for 256x256 pixel image, with approx. 20% pixels masked, on MacBook Pro (Early 2013), 3GHz Intel Core i7. Sample images from Flickr CC.
+
 #### References: 
 
 * http://chemaguerra.com/filling-of-missing-image-pixels/
 * http://wwwvis.informatik.uni-stuttgart.de/~kraus/preprints/vmv06_strengert.pdf
 * https://rosettacode.org/wiki/Bilinear_interpolation#Java
 * https://github.com/kosua20/Rendu
-* https://github.com/cheind/inpaint
+* https://github.com/cheind/inpaint (C++)
+* https://github.com/Mugichoko445/Fast-Digital-Image-Inpainting (OpenCV2, C++)
+* https://github.com/YuanTingHsieh/Image_Completion & [add'l code](https://github.com/WenFuLee/CS-766-Computer-Vision)
+* https://www.researchgate.net/publication/275197779_Fast_GPU-based_image_warping_and_inpainting_for_frame_interpolation (CUDA)
+
 
  
-#### Performance: 
-
-Very modest; this is not optimized or GPU code. About 3ms for 256x256 pixel image, with approx. 20% pixels masked, on MacBook Pro (Early 2013), 3GHz Intel Core i7. Sample images from Flickr CC.
