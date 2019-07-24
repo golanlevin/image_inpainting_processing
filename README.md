@@ -38,5 +38,6 @@ Very modest; this is not optimized or GPU code. About 3ms for 256x256 pixel imag
 * https://github.com/YuanTingHsieh/Image_Completion & [add'l code](https://github.com/WenFuLee/CS-766-Computer-Vision)
 * https://www.researchgate.net/publication/275197779_Fast_GPU-based_image_warping_and_inpainting_for_frame_interpolation (CUDA)
 * https://www.shadertoy.com/view/4ty3Dy (GLSL)
+* https://forum.openframeworks.cc/t/how-to-configure-a-shader-with-multiple-render-buffers-and-swapbuffers-ex-shadertoy/23933
 
  
